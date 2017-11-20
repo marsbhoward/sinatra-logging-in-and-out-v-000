@@ -4,9 +4,6 @@ class CreateUsers < ActiveRecord::Migration
       t.string :username
       t.string :password
       t.decimal :balance
-
-      user1 = User.create(:username => "skittles123", :password => "iluvskittles", :balance => 1000)
-
     end
   end
 end
